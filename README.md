@@ -5,18 +5,18 @@ npm run dev
 ## Routes
 
 Super Admin
-$/admin/dashboard
+$ /admin/dashboard
 
 Homepage
-$/admin/homepage
+$ /admin/homepage
 
 ## Routes Api
 
 User
-$/api/user
+$ /api/user
 
 Biodata
-$/api/biodata
+$ /api/biodata
 
 History
-$/api/history
+$ /api/history
