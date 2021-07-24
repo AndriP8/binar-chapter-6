@@ -27,6 +27,7 @@ module.exports = {
     User.findAll().then((user) =>
       res.render("admin/dashboard/view_dashboard", {
         user,
+        title: "Dashboard",
       })
     );
   },
@@ -34,6 +35,7 @@ module.exports = {
     User.findAll().then((user) =>
       res.render("admin/users/view_users", {
         user,
+        title: "Users",
       })
     );
   },
@@ -49,6 +51,7 @@ module.exports = {
     }).then((user) =>
       res.render("admin/users/view_edit_user", {
         user,
+        title: "Edit user",
       })
     );
   },
