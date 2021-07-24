@@ -6,7 +6,6 @@ var logger = require("morgan");
 var methodOverride = require("method-override");
 
 var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
 
 var app = express();
 
@@ -29,7 +28,6 @@ app.use("/sb-admin-2", express.static(path.join(__dirname, "node_modules/startbo
 app.use(methodOverride("_method"));
 
 app.use("/", indexRouter);
-// app.use("/users", usersRouter);
 
 // router admin
 app.use("/admin", adminRouter);
