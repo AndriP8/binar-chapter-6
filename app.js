@@ -33,7 +33,7 @@ app.use("/", indexRouter);
 app.use("/admin", adminRouter);
 
 // router api
-app.use("/api", apiRouter);
+app.use("/api/v1", apiRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
